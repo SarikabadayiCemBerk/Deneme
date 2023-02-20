@@ -1,1 +1,2 @@
 # Deneme
+buraya yazılar eklenecek
