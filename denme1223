@@ -2,24 +2,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-if (args[0].toLowerCase().equals("help")) {
+		if (args.length > 1) {
+if (args[2].toLowerCase().equals("help")) {
 	showHelpMessage();
 	return;
 }
-else if (args[0].toLowerCase().equals("req")) {
-	showReqMessage();
-	return;
-	
+
 }
 	}
-
-
 private static void showHelpMessage() {
-	System.out.println("\n===== Help =====\n");
-	System.out.println("In this project, we are faced with the challange of"
-	+"lhdgfpkdfnbpodnbğoeb");
+	System.out.println("\n======== HELP ========\n");
+
+	System.out.println("In this project, we are faced with the challenge of");
 }
-private static void showReqMessage() {
-	
-}
+
 }
