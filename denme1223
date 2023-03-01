@@ -15,7 +15,7 @@ else if (args[0].toLowerCase().equals("req")) {
 
 
 private static void showHelpMessage() {
-	System.out.println("Help");
+	System.out.println("\n===== Help =====\n");
 	System.out.println("In this project, we are faced with the challange of"
 	+"lhdgfpkdfnbpodnbğoeb");
 }
