@@ -8,7 +8,7 @@ public class Main1234 {
 	public static void main(String[] args) throws IOException {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a command:");
-		System.out.println("(Please write help to read our business problem definition)");
+		System.out.println("(Please write "help" to read our business problem definition)");
 		String name = scanner.nextLine();
 		
 		JFrame frame = new JFrame("Business Problem Definition");
