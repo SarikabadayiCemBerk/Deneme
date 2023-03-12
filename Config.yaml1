@@ -1,0 +1,71 @@
+Title : "IE402 FORKLIFT_CHARGING Scheduling Project"
+  # Equipment types are given in below.
+types:
+  - "Forklift"
+  - "RT"
+  - "Jet"
+
+equipmentConfig:
+  equipment0:         # proporties of Forklift
+    countLowerBound: 3
+    countUpperBound: 10
+    chargeLowerBound: 0
+    chargeUpperBound: 100
+    usageTimeLowerBound: 320
+    usageTimeUpperBound: 470
+    chargingTimeLowerBound: 320
+    chargingTimeUpperBound: 470
+  equipment1:        # proporties of RT
+    countLowerBound: 1
+    countUpperBound: 8
+    chargeLowerBound: 0
+    chargeUpperBound: 100
+    usageTimeLowerBound: 300
+    usageTimeUpperBound: 430
+    chargingTimeLowerBound: 300
+    chargingTimeUpperBound: 430
+  equipment2:       # proporties of Jet
+    countLowerBound: 1
+    countUpperBound: 7
+    chargeLowerBound: 0
+    chargeUpperBound: 100
+    usageTimeLowerBound: 300
+    usageTimeUpperBound: 450
+    chargingTimeLowerBound: 300
+    chargingTimeUpperBound: 450
+workingHourConfig:  #daily shift lengths are arranged seperately
+  shift1:
+    startHour: 8
+    startMinute: 20
+    endHour: 12
+    endMinute: 0
+  shift2:
+    startHour: 13
+    startMinute: 0
+    endHour: 18
+    endMinute: 0
+taskConfig:
+  task0:  # Tasks of equipment 0
+    countLowerBound: 1  # minimum number of tasks can be assigned in a day
+    countUpperBound: 20 # maximum number of tasks can be assigned in a day
+    lengthLowerBound: 20 # minimum length of tasks can be assigned in a day
+    lengthUpperBound: 105 # maximum length of tasks can be assigned in a day
+
+  task1: # Tasks of equipment 1
+    countLowerBound: 1 # minimum number of tasks can be assigned in a day
+    countUpperBound: 20 # maximum number of tasks can be assigned in a day
+    lengthLowerBound: 30 # minimum length of tasks can be assigned in a day
+    lengthUpperBound: 85 # maximum length of tasks can be assigned in a day
+  task2: # Tasks of equipment 2
+    countLowerBound: 1 # minimum number of tasks can be assigned in a day
+    countUpperBound: 20 # maximum number of tasks can be assigned in a day
+    lengthLowerBound: 25 # minimum length of tasks can be assigned in a day
+    lengthUpperBound: 90 # maximum length of tasks can be assigned in a day
+
+chargeStationConfig: # number of charging stations
+  countLowerBound: 5 # minimum number of charging stations
+  countUpperBound: 10 # maximum number of charging stations
+
+employeeConfig: # number of employee
+  countLowerBound: 10 # minimum number of employee
+  countUpperBound: 22 # maximum number of employee
