@@ -2,8 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) throws IOException {
+public class main1234 {
+    public static void main1234(String[] args) throws IOException {
         DataHub data = new DataHub();
         while (args.length > 0) {
             if(args[0].toLowerCase().equals("help")){
