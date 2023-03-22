@@ -4,6 +4,7 @@
     <a href="#" class="button">Account</a>
     <a href="#" class="button">Logout</a>
 </div>
+<a href="#" class="button">Post comment</a>
 
 
 
