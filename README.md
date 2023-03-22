@@ -1,3 +1,22 @@
+<div class="actions button-container">
+    <a href="#" class="button primary">Compose new</a>
+    
+    <div class="button-group">
+        <a href="#" class="button primary">Archive</a>
+        <a href="#" class="button">Report spam</a>
+        <a href="#" class="button danger">Delete</a>
+    </div>
+                        
+    <div class="button-group minor-group">
+        <a href="#" class="button">Move to</a>
+        <a href="#" class="button">Labels</a>
+    </div>
+</div>
+
+
+
+
+
 
 <img width="93" alt="Ekran Resmi 2023-03-22 14 43 11" src="https://user-images.githubusercontent.com/120092745/226894536-0d54a603-22cc-4281-88bd-e9c7c658b9ac.png">
 
