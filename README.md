@@ -1,21 +1,8 @@
-<div class="button-group">
-    <a href="#" class="button primary">Dashboard</a>
-    <a href="#" class="button">Inbox</a>
-    <a href="#" class="button">Account</a>
-    <a href="#" class="button">Logout</a>
-</div>
-<a href="#" class="button">Post comment</a>
-
-<a href="#" class="button">Post comment (link)</a>
-<input class="button" type="submit" value="Post comment (input)">
-<button class="button" type="submit">Post comment (button)</button>
 
 
+<img width="200" alt="Ekran Resmi 2023-03-22 23 31 13" src="https://user-images.githubusercontent.com/120092745/227031369-2d4bae7b-a15b-420c-97e1-04400f322129.png">
 
 
-
-
-<img width="93" alt="Ekran Resmi 2023-03-22 14 43 11" src="https://user-images.githubusercontent.com/120092745/226894536-0d54a603-22cc-4281-88bd-e9c7c658b9ac.png">
 
 
 When the command 'ekol' is typed in terminal, the command list appears in the console.
@@ -26,7 +13,7 @@ When the command 'ekol' is typed in terminal, the command list appears in the co
 
 
 
-<img width="107" alt="Ekran Resmi 2023-03-22 14 40 22 1" src="https://user-images.githubusercontent.com/120092745/226894814-7a261fee-faf2-495e-ae1c-191928e5d5d3.png">
+<img width="136" alt="Ekran Resmi 2023-03-22 23 30 36" src="https://user-images.githubusercontent.com/120092745/227031422-8b61b0a3-2651-4c19-bfa7-1a12ca27386a.png">
 
 
 When the command 'help' is typed in terminal, the business problem explanation appears in the console.
@@ -36,8 +23,9 @@ When the command 'help' is typed in terminal, the business problem explanation a
 
 
 
+<img width="380" alt="Ekran Resmi 2023-03-22 23 31 36" src="https://user-images.githubusercontent.com/120092745/227031458-d4a01cb5-6c04-4084-825d-ae2bd5fea947.png">
 
-<img width="165" alt="Ekran Resmi 2023-03-22 14 40 23" src="https://user-images.githubusercontent.com/120092745/226894871-3eddb240-90cd-4d82-ab83-fe1c0277217b.png">
+
 
 
 When the command 'generatedata' is typed in terminal, the json file  appears in the output folder.
